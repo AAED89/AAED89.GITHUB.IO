@@ -1,0 +1,44 @@
+
+ .bg-img{
+    background-image: url(img/keyboards-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+main{
+    margin-top: 56px;
+    padding-top: 2rem;
+}
+
+.navbar{
+    background-color: #21325e;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social a{
+    color: #21325e;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: .5rem;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.social a:hover{
+    background-color: #fdc13d;;
+}
+
+.social a:last-child{
+    margin-right: 0;
+}
